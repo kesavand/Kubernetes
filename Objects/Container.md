@@ -5,7 +5,7 @@ A container image is a lightweight, stand-alone, executable package of a piece o
 needed to run it: code, runtime, system tools, system libraries, settings
 
 Container Spec:
----------------
+
 
 spec:
       containers:
@@ -15,6 +15,7 @@ spec:
         - containerPort: 80
  imagePullSecrets:
   - name: myregistrykey
+  
         
  Kubernetes Container Image Pull:
  -------------------------------
