@@ -1,8 +1,7 @@
 1.Architecture Diagram
 
 
-
-[[https://github.com/kesavand/Kubernetes/blob/master/master_node_structure.png|alt=octocat]]
+![Architecture](link-to-image)
 
 Master Components
 ------------------
