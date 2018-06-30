@@ -9,10 +9,10 @@ Container Spec:
 
 spec:
       containers:
-      - name: nginx
-        image: nginx
-        ports:
-        - containerPort: 80
+             - name: nginx
+              image: nginx
+            ports:
+            - containerPort: 80
  imagePullSecrets:
   - name: myregistrykey
   
