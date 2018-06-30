@@ -6,18 +6,12 @@ needed to run it: code, runtime, system tools, system libraries, settings
 
 Container Spec:
 
-
-apiVersion: v1
-kind: Pod
-metadata:
-  name: foo
-  namespace: awesomeapps
-spec:
-  containers:
-    - name: foo
-      image: janedoe/awesomeapp:v1
-  imagePullSecrets:
-    - name: myregistrykey
+containers:  
+    - name: foo  
+      image: janedoe/awesomeapp:v1 
+      port: 8080  
+  imagePullSecrets:  
+    - name: myregistrykey  
   
         
  Kubernetes Container Image Pull:
