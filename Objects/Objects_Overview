@@ -1,0 +1,16 @@
+Objects
+-------
+
+Kubernetes Objects are persistent entities in the Kubernetes system. Kubernetes uses these entities to represent the state of your cluster. Specifically, they can describe:
+
+1. What containerized applications are running (and on which nodes)
+2. The resources available to those applications
+3. The policies around how those applications behave, such as restart policies, upgrades, and fault-tolerance
+
+The kubernetes object is made of one or more kubernetes resources(node,Container.Pod,Replication controller,replicaset,deployment,service)
+
+The object is define by a yaml or json file.The object definition consists of two parts
+1. genearal info about the object (api version, kind ,metadta(name, uuid, label))
+2. The object spec that defines the desired state of the object
+
+The kubernetes system sees the object spec and compares the current status with the desired state and always work to keep the current state same as the desired state.
