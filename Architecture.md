@@ -1,7 +1,7 @@
 1.Architecture Diagram
 
 
-![Architecture](link-to-image)
+![Architecture](Kubernetes/master_node_structure.png)
 
 Master Components
 ------------------
